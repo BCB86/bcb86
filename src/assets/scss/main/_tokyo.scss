@@ -27,7 +27,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Mulish";
+  font-family: "Roboto";
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -524,7 +524,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding: 100px 0px 100px 0px;
+  padding: 0 0px 100px 0px;
 }
 .tokyo_tm_about .about_image {
   width: 100%;
@@ -878,7 +878,7 @@ h6 {
   height: auto;
   clear: both;
   float: left;
-  padding: 100px 0px 50px 0px;
+  padding: 73px 0px 50px 0px;
   position: relative;
 }
 .tokyo_tm_portfolio .portfolio_list {
@@ -922,7 +922,7 @@ h6 {
 ul.react-tabs__tab-list {
   position: absolute;
   right: 0;
-  top: 158px;
+  top: 80px;
   z-index: 2;
   @media screen and (max-width: 1199px) {
     top: 225px;
