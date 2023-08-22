@@ -3,7 +3,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Home from "../../components/HomeRtl";
-import About from "../../components/about/AboutMain";
+import About from "../../components/portfolio/azhar/about/AboutMain";
 import Portfolio from "../../components/PortfolioRtl";
 import News from "../../components/NewsRtl";
 import ServiceMain from "../../components/service/ServiceMain";

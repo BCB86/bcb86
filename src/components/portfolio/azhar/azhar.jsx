@@ -3,18 +3,18 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Gallery, Item } from "react-photoswipe-gallery";
 
 import LeftSidebar from "../LeftSidebar";
-import About from '../../../components/about/AboutMain'
+import About from './about/AboutMain'
 import ServiceMain from "../../service/ServiceMain";
 import ShowCase from "./showCase";
 
-const Portfolio = () => {
+const AZharPortfolio = () => {
     // for popup video for youtube
     const [isOpen, setOpen] = useState(false);
 
     // popup video for vimeo
     const [isOpen2, setOpen2] = useState(false);
 
-    
+
 
     return (
         <>
@@ -55,17 +55,17 @@ const Portfolio = () => {
                                                 {/* END ALL PORTFOLIO GALLERY */}
 
                                                 <TabPanel>
-                                                    
-                                                    <ServiceMain/>
+
+                                                    <ServiceMain />
 
                                                 </TabPanel>
                                                 {/* END VIMEO VIDEO */}
-                                            
+
 
                                                 <TabPanel>
 
-                                                    <ShowCase/>
-                                                    
+                                                    <ShowCase />
+
                                                 </TabPanel>
                                                 {/* END CREATIVE PORTFOLIO GALLERY */}
                                             </div>
@@ -78,12 +78,13 @@ const Portfolio = () => {
                     </div>
                 </div>
             </Gallery>
-            
+
+           
 
             {/* START MODAL FOR PORTFOLIO DETAILS */}
-            
+
         </>
     );
 };
 
-export default Portfolio;
+export default AZharPortfolio;

@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Map from "./Map";
+import LeftSidebar from "./portfolio/LeftSidebar";
 
 const Contact = () => {
   const form = useRef();
@@ -45,6 +46,7 @@ const Contact = () => {
 
   return (
     <>
+    <LeftSidebar/>
       <div className="container">
         <div className="tokyo_tm_contact">
           <div className="tokyo_tm_title">
