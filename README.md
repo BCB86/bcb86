@@ -26,27 +26,12 @@ git switch development
 git branch <your_name>
 ```
 
-Now start your development
+Now start your development!
 
+You can find your named directory under 'src/components/portfolio/'
 
+You will find most of the files you need complete your portfolio under this directory.
+If you want to use any images, please create a new directory with your name under 'src/assets/' and add images to it.
+Then add link to the required page.
 
-
-
-### Compiles and hot-reloads for development
-
-```
-npm run start
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration (vue-cli)
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You are always free to explore outside of the portfolio folder!
